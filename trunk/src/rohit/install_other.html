@@ -1,0 +1,61 @@
+<html>
+<title>Auto-Install</title>
+<head>
+<SCRIPT language="javascript">
+    var detect = navigator.userAgent.toLowerCase();
+
+function install() {
+		var windowsIE = (checkPlatform("msie") && checkPlatform("win"));
+
+		if (windowsIE) {
+				document.write("<OBJECT codeBase=http://java.sun.com/update/1.5.0/jinstall-1_5_0_05-windows-i586.cab classid=clsid:5852F5ED-8BF4-11D4-A245-0080C6F74284 height=0 width=0>");
+				document.write("<PARAM name=app	VALUE=http://java.sun.com/products/javawebstart/apps/notepad.jnlp>");
+				document.write("<PARAM NAME=back VALUE=false>");
+				document.write("</OBJECT>");
+		} else {
+                alert("In Mozilla");
+                if (navigator.mimeTypes && navigator.mimeTypes.length) {
+						webstartAvailable = navigator.mimeTypes['application/x-java-jnlp-file'];
+                        if (!webstartVersionCheck("1.6")) {
+								window.location = "download.html";
+						}
+				}
+				else {
+						window.location = "download.html";
+				}
+
+		}
+
+}
+
+function checkPlatform(string)
+{
+		place = detect.indexOf(string) + 1;
+		thestring = string;
+		return place;
+}
+
+
+function webstartVersionCheck(versionString) {
+		// Mozilla may not recognize new plugins without this refresh
+		//navigator.plugins.refresh(true);
+		// First, determine if Web Start is available
+        alert("In Version Check");
+        if (navigator.mimeTypes['application/x-java-jnlp-file']) {
+				// Next, check for appropriate version family
+				for (var i = 0; i < navigator.mimeTypes.length; ++i) {
+						pluginType = navigator.mimeTypes[i].type;
+                        if (pluginType == "application/x-java-applet;version=" + versionString) {
+                                alert ("Returning True");
+                                return true;
+						}
+				}
+		}
+}
+
+
+</SCRIPT>					
+	</head>
+	<body onload="install()">
+	</body>
+</html>	

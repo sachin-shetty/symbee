@@ -1,0 +1,116 @@
+Jaman Player - Software License Agreement
+
+PLEASE READ THIS SOFTWARE LICENSE AGREEMENT ("LICENSE") CAREFULLY BEFORE USING THE JAMAN PLAYER SOFTWARE.  BY USING THE JAMAN SOFTWARE, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT USE THE SOFTWARE.
+
+THIS IS A LEGAL AGREEMENT BETWEEN YOU AND JAMAN, INC.™ (“Jaman”) THIS AGREEMENT, TOGETHER WITH ALL UPDATES, ADDITIONAL TERMS, SOFTWARE LICENSES AND ANY ADDITIONAL JAMAN, INC. RULES AND POLICIES GOVERNS YOUR USE OF THE JAMAN™ NETWORK (AS DEFINED BELOW) ("NETWORK"). BEFORE USING THE NETWORK OR THE JAMAN™ SOFTWARE, PLEASE CAREFULLY READ THE AGREEMENT.
+
+1.	General Terms
+
+The software and documentation accompanying this License whether on your computer hard disk, in your web browser, in read only memory, on any other media, or in any other form (collectively the "Jaman Software") are licensed, not sold, to you by Jaman, Inc. for use only under the terms of this License, and Jaman reserves all rights not expressly granted to you.
+
+The rights granted herein are limited to Jaman and its licensors' intellectual property rights in the Jaman Software and do not include any other patents or intellectual property rights. You own the media on which the Jaman Software is recorded but Jaman and/or Jaman 's licensor(s) retain ownership of the Jaman Software itself.
+
+The terms of this License will govern any software upgrades provided by Jaman that replace and/or supplement the original Jaman Software product, unless such upgrade is accompanied by a separate license in which case the terms of that license will govern.
+
+2.	Notice
+
+Jaman reserves the right to change, add or delete portions of this License and/or the other Jaman terms and policies at any time and at its sole discretion.
+
+Documents related to this license:
+
+Terms of Use
+http://www.jaman.com/register.php?theAction=show_terms_of_use
+
+Content License Agreement (for those uploading content to Jaman)
+http://www.jaman.com/upload.php?theAction=show_content_lic_agreement
+
+Privacy Policy
+http://www.jaman.com/download.php?theAction=show_privacy_policy
+
+It is your responsibility to check these various agreements periodically to stay informed of any changes. If you do not agree with (or cannot comply with) the License as amended, your only remedy is to discontinue your use of the Software and the Jaman Network as defined in Section 7. Your continued use of the Network following the posting of any changes means that you accept and agree to such changes.
+
+3.	Permitted Use of Licensed Content
+
+IMPORTANT NOTE: This software may be used to reproduce materials.  It is licensed to you only for reproduction of non-copyrighted materials, materials in which you own the copyright, or materials you are authorized or legally permitted to reproduce. If you are uncertain about your right to copy or permit access to any material you should contact your legal advisor.
+
+4.	Age Requirements
+
+You must be at least 18 years of age to agree to and enter into this Agreement. If you are under 18 years of age but at least 13 years of age, you must present this Agreement to your parent or legal guardian for their review of these Terms of Use in order for them to enter into this Agreement on your behalf. CHILDREN UNDER THE AGE OF 13 MAY NOT REGISTER FOR THIS NETWORK AND PARENTS OR LEGAL GUARDIANS MAY NOT REGISTER ON THEIR BEHALF. Any personal information submitted by children under the age of 13 will not be knowingly retained by Jaman, Inc. 
+
+Jaman believes that not all content is right for all ages and applies best efforts to identify explicit content in the Jaman library. Please be aware that currently we are unable to identify explicit content from all of our video content partners, and we rely on the community to notify us of questions regarding the appropriateness of individual items in the library.
+
+We include ratings when available as designated by the content owner. For information related to major motion picture ratings in the United States, visit http://www.mpaa.org/FilmRatings.asp. Please note that there is no accepted international standard for film ratings at this time. 
+The Jaman Software may include Parental Control features which allow limits to be set on the types of content which can be accessed or retrieved by a user. However, these features are not intended to replace parental supervision and are provided for convenience only. You acknowledge and agree that Jaman, Inc. is not responsible for unintended access to explicit or inappropriate content. It is recommended that you verify, from time to time, that Parental Control features are activated and operational.
+
+By clicking "Agree", indicating acceptance of this Agreement, you represent that (a) you are at least 18 years of age, either entering into this Agreement for yourself or as a parent or legal guardian, entering into this Agreement on behalf of your child or child legally in your care and (b) you understand and agree to be bound by this Agreement. Any parent or legal guardian entering into this Agreement on behalf of a child under the age of 18 understands and agrees to be responsible for any financial charges and/or legal liabilities incurred on the Network.
+
+5.	Jaman Store and other Services
+
+You must have a valid e-mail address in order to become a registered user of the Network. 
+
+If you configure your browser to reject all cookies, you will not be able to use our products or services that require you to "sign in" and you may not be able to take full advantage of all offerings. Please note that many of our products and services do not require that you accept cookies. You may refer to the Jaman, Inc. Privacy Policy for additional information regarding cookies.
+
+In addition, please note that in order to track licenses for movies you purchase from the Network, it may be necessary to store identifying information on your computer.
+
+6.	Use of Software and Access to Upgrades
+
+Jaman may, from time to time, present Jaman Software version updates, programming fixes, updates and upgrades to you. You will be asked to either accept or decline such programming fixes, updates and upgrades, which will be applied and installed on your computer only upon your acceptance. Failure to accept and subsequent installation of such programming fixes, updates and upgrades, however, may affect your ability to use the Jaman Software and the Network.
+
+You agree not to modify the Jaman Software in any manner or form or use unauthorized versions. You may not use the Network or any Content for any purpose that is unlawful or prohibited by this License or in the Jaman Terms of Use, or to solicit the performance of any illegal activity or other activity which infringes the rights of Jaman or others.
+
+7.	The Jaman Network
+
+The Jaman Network includes the Jaman website located at www.jaman.com <http://www.jaman.com>, the digital media service, Jaman Software and any other related websites linked to it by Jaman, its affiliates and subsidiaries (collectively, the "Network"), other than third party websites and links. The Network is the property of Jaman, Inc.
+
+You understand that the Network, and any digital media products purchased through the Network, includes a security framework using technology that protects digital information and limits your access to and usage of such products according to certain usage rules established by Jaman and its licensors ("Content Usage Rules").
+
+You agree to comply with such Content Usage Rules, as outlined below, and you agree not to violate or attempt to violate any security components of the Network.
+
+You agree not to attempt to or assist another person to circumvent, reverse-engineer, decompile, disassemble, tamper with or otherwise test the vulnerability of the Network or any network connected to the Network, including any of the security components related to the Content Usage Rules, nor breach the authentication or security measures on the Network or any network connected to the Network.
+
+The Content Usage Rules may be controlled or monitored by Jaman for compliance purposes and Jaman reserves the right to enforce the Content Usage Rules with or without notice to you. You will not access or attempt to access, copy or monitor any portion of the Network or any content of the Network, including but not limited to all text, graphics, photographs, trademarks, logos, music, videos, movies, sounds, user interfaces, visual interfaces, artwork, computer code and all other related content ("Content"), or in any way reproduce or circumvent the navigational structure or presentation of the Network or any Content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Network or a User Account that you do not have authorization to access by any means whatsoever.
+
+8. Consent to Use of Data
+
+You agree that Jaman and its subsidiaries may collect and use technical and related information, including but not limited to technical information about your computer, system and application software, and peripherals, that is gathered periodically to facilitate the provision of software updates, product support and other services to you (if any) related to the Jaman Software and to verify compliance with the terms of this License. Jaman may use this information, as long as it is in a form that does not personally identify you, to improve our products or to provide services or technologies to you.
+
+Jaman respects your privacy, and the Jaman Software will not collect information on your computer that is not related to use of the Jaman Software or otherwise related to your use of the Jaman Network or other services.
+
+9. The Jaman Network and Your Computer
+
+You hereby acknowledge that the Jaman Software may utilize the processor and bandwidth of the computer you are utilizing for the limited purpose of facilitating the download of content between Jaman  users.
+
+You understand that the Jaman Software will use its commercially reasonable efforts to protect the privacy and integrity of the computer resources (or other applicable device) you are utilizing and of your communication, however, you acknowledge and agree that Jaman cannot give any warranties in this respect.
+
+10.	Third-party Websites
+
+This Network may contain links to or include materials from other independent third-party websites. You acknowledge and agree that Jaman is not responsible for the content or accuracy of any such third-party websites. These third-party websites are only for your convenience and you therefore access them at your own risk.
+
+11.	Groups, Discussions, and Reviews
+
+Jaman does not endorse, and takes no responsibility and will assume no liability for, any Content posted by you or another End User. Jaman does not and cannot review all Content postings by End Users on the Network, therefore, we are not responsible for such Content.
+
+Jaman reserves the right to delete or edit any reviews or other Content postings that are not, in our sole discretion, in the spirit of basic human decency and our Community Guidelines as shown on Jaman.com.
+
+12.	Termination
+
+This License is effective until terminated. Your rights under this License will terminate automatically without notice from Jaman if you fail to comply with any term(s) of this License. Upon the termination of this License, you shall cease all use of the Jaman Software and destroy all copies, full or partial, of the Jaman Software.
+
+13.	Limited Warranty on Downloaded Content
+
+Jaman warrants the media on which the Jaman Software is recorded and delivered by Jaman to be free from defects in materials and workmanship under normal use for a period of ninety (90) days from the date of original retail purchase. Your exclusive remedy under this Section shall be, at Jaman 's option, a refund of the purchase price of the product purchase, provided that proof of payment can be produced. THIS LIMITED WARRANTY AND ANY IMPLIED WARRANTIES ON THE MEDIA INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, OF SATISFACTORY QUALITY, AND OF FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE OF ORIGINAL RETAIL PURCHASE.  SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.  THE LIMITED WARRANTY SET FORTH HEREIN IS THE ONLY WARRANTY MADE TO YOU AND IS PROVIDED IN LIEU OF ANY OTHER WARRANTIES (IF ANY) CREATED BY ANY DOCUMENTATION.  THIS LIMITED WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY BY JURISDICTION.
+
+14.	Limitation of Liability
+
+In no event will Jaman, it's directors, officers, employees, affiliates, agents, contractors or licensors be liable for any indirect, consequential, special, incidental or punitive damages, including lost profits, arising from your use of any of the Network or for any other claim related in any way to your use of the Network, including but not limited to, any errors or omissions in any Content, or any loss or damage of any kind incurred as a result of the use of any Content posted, transmitted, or otherwise made available by the Network, even if advised of their possibility. In such states or jurisdictions that do not allow the exclusion or the limitation of liability for consequential or incidental damages, Jaman's liability shall be limited to the extent permitted by law.
+
+15.	Indemnification
+
+You agree to indemnify and hold Jaman, its officers, directors, shareholders, predecessors, successors in interest, employees, agents, subsidiaries and affiliates, any of its third-party technology providers or licensors, harmless from any demands, loss, liability, claims or expenses, including attorneys' fees, made against Jaman by any third party due to or arising out of, or in connection with, your use of the Network, your breach of this Agreement, or as a result of its finding or decision that a violation of this Agreement has occurred. This indemnity provision applies to all violations described in or contemplated by this Agreement.
+
+16.	Export Control
+
+You may not use or otherwise export or re-export the Jaman Software except as authorized by United States law and the laws of the jurisdiction in which the Jaman Software was obtained. In particular, but without limitation, the Jaman Software may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List.
+
+By using the Jaman Software, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture or production of nuclear, missiles, or chemical or biological weapons.
+
