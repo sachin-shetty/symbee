@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ <title>RapidShare: 1-Click Webhosting</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ <link rel="stylesheet" type="text/css" href="http://images.rapidshare.com/img/styles.css" />
+ <script type="text/javascript" src="http://images.rapidshare.com/img/css_dropdown.js"></script>
+ </head>
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<img src="http://images.rapidshare.com/img/rslogo.jpg">
+</div>
+
+<ul class="dropdown" id="mainmenu">
+ <li><a href="http://rapidshare.com">Home</a></li>
+ <li><a href="http://rapidshare.com/en/news.html">News</a></li>
+
+ <li><a href="#">Premium zone</a>
+  <ul>
+   <li><a href="https://ssl.rapidshare.com/cgi-bin/premiumzone.cgi">Premium-zone Login</a></li>
+   <li><a href="http://rapidshare.com/en/forgotpw.html">Forgot your password?</a></li>
+   <li><a href="http://rapidshare.com/en/premium.html">Join PREMIUM</a></li>
+  </ul>
+ </li>
+
+ <li><a href="#">Free zone</a>
+  <ul>
+   <li><a href="https://ssl.rapidshare.com/cgi-bin/collectorszone.cgi">Collector's Zone Login</a></li>
+   <li><a href="http://rapidshare.com/en/freefolders.html">Create your own RapidShare folders</a></li>
+  </ul>
+ </li>
+
+ <li><a href="#">Rapid Tools</a>
+  <ul>
+   <li><a href="http://rapidshare.com/en/rapiduploader.html">Rapid Uploader</a></li>
+   <li><a href="http://rapidshare.com/en/checkfiles.html">Link Checker</a></li>
+  </ul>
+ </li>
+
+ <li><a href="http://rapidshare.com/en/faq.html">FAQ</a></li>
+
+ <li><a href="http://rapidshare.com/en/imprint.html">Support</a></li>
+
+ <li><a href="http://rapidshare.com/en/banners.html">Banners</a></li>
+
+ <li><a href="http://rapidshare.com/en/imprint.html">Imprint</a></li>
+</ul>
+
+<div id="terminator"></div>
+<div id="main"><div id="content"><div class="inner">
+<h2>The future of 1-Click web hosting</h2>
+
+<div align="center">
+
+<iframe src="http://rs91l3.rapidshare.com/en/progress.html?uploadid=347421634929334416" width="600" height="85" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO"></iframe>
+<script>function switchfiles() {alert("Please notice that when using multi-upload the sum of\nall files you upload at once must not exceed 100 MB.");
+document.getElementById('files').innerHTML = 'File #01: <input type="file" size="64" name="filecontent"><br>File #02: <input type="file" size="64" name="filecontent2"><br>File #03: <input type="file" size="64" name="filecontent3"><br>' +
+'File #04: <input type="file" size="64" name="filecontent4"><br>File #05: <input type="file" size="64" name="filecontent5"><br>File #06: <input type="file" size="64" name="filecontent6"><br>File #07: <input type="file" size="64" name="filecontent7"><br>' +
+'File #08: <input type="file" size="64" name="filecontent8"><br>File #09: <input type="file" size="64" name="filecontent9"><br>File #10: <input type="file" size="64" name="filecontent10"><br><input type="submit" name="u" value="Upload!">'}</script>
+<form name="ul" method="post" action="http://rs91l3.rapidshare.com/cgi-bin/upload.cgi?rsuploadid=347421634929334416" enctype="multipart/form-data" onsubmit="document.ul.u.value='Please wait ...';document.ul.u.disabled=true">
+<a href="#" onclick="switchfiles()">Multi-Upload</a> Choose your upload-datapath: &nbsp;&nbsp;&nbsp; Cogent <input name="mirror" type="radio" onclick="document.ul.action='http://rs91cg.rapidshare.com/cgi-bin/upload.cgi?rsuploadid=347421634929334416';document.ul.u.value='Upload via Cogent'">
+Level(3) <input checked name="mirror" type="radio" onclick="document.ul.action='http://rs91l3.rapidshare.com/cgi-bin/upload.cgi?rsuploadid=347421634929334416';document.ul.u.value='Upload via Level(3)'">
+Telia <input name="mirror" type="radio" onclick="document.ul.action='http://rs91tl.rapidshare.com/cgi-bin/upload.cgi?rsuploadid=347421634929334416';document.ul.u.value='Upload via Telia'"><br>
+<div id="files"><input type="file" size="64" name="filecontent"> <input type="submit" name="u" value="Upload!"></div></form>
+
+
+<table><tr><td>
+<b>Upload-Limit: <font color="red">Unlimited!</font></b> (Max. <b><u>100 MB</u></b> per file! Split-Archives allowed!)<br>
+<b>Download-Limit: <font color="red">Unlimited!</font></b> (Some files have 100.000 Downloads!)
+</td></tr></table>
+
+<br>
+<a href="http://games.rapidshare.com" target="_blank"><img border="0" src="http://images.rapidshare.com/img/rapidgames.jpg"></a><br><br>
+
+<p align="justify">With <b>140 Gigabit/s</b> of Internet connectivity and 3.5 Petabytes of storage,
+RapidShare is one of the biggest and fastest web hosters world wide.<br><br>
+
+<b>1-Click web hosting for free</b><br>
+With our 1-Click web hosting solution you can put your files online for free with just one click fast and easy.
+You decide, who will be able to access your file. Only people knowing the exact download URL are able to download your file.
+Your file will be deleted when it has not been accessed for more than 90 days or you use your delete link.<br><br>
+
+<b>Professional web hosting</b><br>
+By using our direct download solution, you can provide many features to your friends and customers.
+Embed videos and images directly into your homepage, make interesting files available for direct download.
+No matter where your customers are, by being able to choose from ten mirrors, you show that you take file hosting serious.
+Big companies have the possibility to use our file hosting cluster solution if extreme bandwidth is needed by serving
+thousands of customers at the same time. Start now by <a href="/en/premium.html">purchasing a premium account</a>.</p>
+
+<p><p>Access-code wrong. Only free-users have to enter an access-code to prevent abuse.<br>
+Premium-users don't have to enter anything! Get your own Premium-account now. Instant download-access!<br>
+<a href="http://rs206.rapidshare.com/files/51893522/smily_online.gif">Click here to try again.</a></p>
+<p><table id="premiumtable2" cellpadding="0" cellspacing="0">
+<tr><td align="center"><b>Price</b></td><td align="center"><b>Bonus</b></td><td align="center"><b>Valid for</b></td><td align="center" colspan="2"><b>Payment-possibilities</b></td></tr>
+
+<!-- WARNING: The following values are checked for VAILIDITY! Do NOT modify them or we will just ignore your payment! -->
+
+<tr>
+<td><b>4.50 EUR</b></td>
+<td>No bonus</td>
+<td>48 hours<br>short-term</td>
+<td align="center">
+<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_xclick" type="hidden">
+<input name="business" value="paypal@rapidshare.com" type="hidden">
+<input name="item_name" value="RapidShare.com - PREMIUM (48 hours short-term)" type="hidden">
+<input name="item_number" value="14" type="hidden">
+<input name="amount" value="4.50" type="hidden">
+<input name="page_style" value="RapidShare" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://ssl.rapidshare.com/cgi-bin/paypalok.cgi" type="hidden">
+<input name="no_note" value="1" type="hidden">
+<input name="currency_code" value="EUR" type="hidden">
+<input name="lc" value="US" type="hidden">
+<input name="bn" value="PP-BuyNowBF" type="hidden">
+<input src="http://images.rapidshare.com/img/paypal_buy.gif" type="image">
+</form></td>
+<td align="center"><a href="http://rapidshare.com/en/paybycall.html"><img border="0" src="http://images.rapidshare.com/img/phone.gif"></a></td>
+</tr>
+
+<tr>
+<td><b>6.99 EUR</b></td>
+<td>8000 points</td>
+<td>1 month</td>
+<td align="center">
+<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_xclick" type="hidden">
+<input name="business" value="paypal@rapidshare.com" type="hidden">
+<input name="item_name" value="RapidShare.com - PREMIUM (1 month)" type="hidden">
+<input name="item_number" value="15" type="hidden">
+<input name="amount" value="6.99" type="hidden">
+<input name="page_style" value="RapidShare" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://ssl.rapidshare.com/cgi-bin/paypalok.cgi" type="hidden">
+<input name="no_note" value="1" type="hidden">
+<input name="currency_code" value="EUR" type="hidden">
+<input name="lc" value="US" type="hidden">
+<input name="bn" value="PP-BuyNowBF" type="hidden">
+<input src="http://images.rapidshare.com/img/paypal_buy.gif" type="image">
+</form></td><td>&nbsp;</td>
+</tr>
+
+<tr>
+<td><b>16.99 EUR</b><br>You save <b>20%!</b></td>
+<td>8000 points</td>
+<td>3 months</td>
+<td align="center">
+<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_xclick" type="hidden">
+<input name="business" value="paypal@rapidshare.com" type="hidden">
+<input name="item_name" value="RapidShare.com - PREMIUM (3 months)" type="hidden">
+<input name="item_number" value="16" type="hidden">
+<input name="amount" value="16.99" type="hidden">
+<input name="page_style" value="RapidShare" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://ssl.rapidshare.com/cgi-bin/paypalok.cgi" type="hidden">
+<input name="no_note" value="1" type="hidden">
+<input name="currency_code" value="EUR" type="hidden">
+<input name="lc" value="US" type="hidden">
+<input name="bn" value="PP-BuyNowBF" type="hidden">
+<input src="http://images.rapidshare.com/img/paypal_buy.gif" type="image">
+</form></td>
+<td align="center"><a href="http://rapidshare.com/cgi-bin/wiretransfer.cgi"><img src="http://images.rapidshare.com/img/wteng.jpg" border="0"></a></td>
+</tr>
+
+<tr>
+<td><b>29.99 EUR</b><br>You save <b>30%!</b></td>
+<td>8000 points</td>
+<td>6 months</td>
+<td align="center">
+<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_xclick" type="hidden">
+<input name="business" value="paypal@rapidshare.com" type="hidden">
+<input name="item_name" value="RapidShare.com - PREMIUM (6 months)" type="hidden">
+<input name="item_number" value="17" type="hidden">
+<input name="amount" value="29.99" type="hidden">
+<input name="page_style" value="RapidShare" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://ssl.rapidshare.com/cgi-bin/paypalok.cgi" type="hidden">
+<input name="no_note" value="1" type="hidden">
+<input name="currency_code" value="EUR" type="hidden">
+<input name="lc" value="US" type="hidden">
+<input name="bn" value="PP-BuyNowBF" type="hidden">
+<input src="http://images.rapidshare.com/img/paypal_buy.gif" type="image">
+</form></td>
+<td align="center"><a href="http://rapidshare.com/cgi-bin/wiretransfer.cgi"><img src="http://images.rapidshare.com/img/wteng.jpg" border="0"></a></td>
+</tr>
+
+<tr>
+<td><b>54.99 EUR</b><br>You save <b>35%!</b></td>
+<td>8000 points</td>
+<td><b><big>1 year</big></b></td>
+<td align="center">
+<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_xclick" type="hidden">
+<input name="business" value="paypal@rapidshare.com" type="hidden">
+<input name="item_name" value="RapidShare.com - PREMIUM (1 year)" type="hidden">
+<input name="item_number" value="18" type="hidden">
+<input name="amount" value="54.99" type="hidden">
+<input name="page_style" value="RapidShare" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://ssl.rapidshare.com/cgi-bin/paypalok.cgi" type="hidden">
+<input name="no_note" value="1" type="hidden">
+<input name="currency_code" value="EUR" type="hidden">
+<input name="lc" value="US" type="hidden">
+<input name="bn" value="PP-BuyNowBF" type="hidden">
+<input src="http://images.rapidshare.com/img/paypal_buy.gif" type="image">
+</form></td>
+<td align="center"><a href="http://rapidshare.com/cgi-bin/wiretransfer.cgi"><img src="http://images.rapidshare.com/img/wteng.jpg" border="0"></a></td>
+</tr>
+
+<tr><td colspan="5" align="center">
+Alternatively you can purchase your premium account from one of our <a href="http://rapidshare.com/en/resellers.html"><b>verified resellers</b></a>.<br>
+Right now: Czech Republic, Iran, Kuwait, Morocco, Russia, Saudi Arabia, Serbia, Slovakia, Turkey, Ukraine
+</td></tr>
+
+</table></p>
+
+</p>
+</div>
+</div></div></div>
+</div><!-- wrapper -->
+</body>
+</html>
