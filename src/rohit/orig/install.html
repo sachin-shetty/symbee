@@ -1,0 +1,59 @@
+<html>
+<title>Auto-Install</title>
+<head>
+    <SCRIPT language="javascript">
+
+        var detect = navigator.userAgent.toLowerCase();
+        function install()  {
+            var windowsIE = (checkPlatform("msie") && checkPlatform("win"));
+
+            if (windowsIE) {
+                alert("IN IE");
+                window.location = "install_ie.html";                
+                return;
+            } else {
+                if (navigator.mimeTypes && navigator.mimeTypes.length) {
+                    webstartAvailable = navigator.mimeTypes['application/x-java-jnlp-file'];
+                    if (!webstartVersionCheck("1.6")) {
+                        window.location = "download.html";
+                    } else {
+                        window.location = "http://24.6.1.140/jnlp/vd.jnlp"
+                    }
+                }
+                else {
+                    window.location = "download.html";
+                }
+
+            }
+
+        }
+
+        function checkPlatform(string) {
+            place = detect.indexOf(string) + 1;
+            thestring = string;
+            return place;
+        }
+
+
+        function webstartVersionCheck(versionString) {
+            // Mozilla may not recognize new plugins without this refresh
+            //navigator.plugins.refresh(true);
+            // First, determine if Web Start is available
+            alert("In Version Check");
+            if (navigator.mimeTypes['application/x-java-jnlp-file']) {
+                // Next, check for appropriate version family
+                for (var i = 0; i < navigator.mimeTypes.length; ++i) {
+                    pluginType = navigator.mimeTypes[i].type;
+                    if (pluginType == "application/x-java-applet;version=" + versionString) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+
+    </SCRIPT>
+</head>
+<body onload="install()">
+</body>
+</html>	
