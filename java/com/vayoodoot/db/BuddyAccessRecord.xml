@@ -1,0 +1,9 @@
+<record>
+    <record_type>com.vayoodoot.db.BuddyAccessRecord</record_type>
+    <allowed_buddies>${ALLOWED_BUDDIES}</allowed_buddies>
+    <blocked_buddies>${BLOCKED_BUDDIES}</blocked_buddies>
+    <allowed_file_types>${ALLOWED_FILE_TYPES}</allowed_file_types>
+    <blocked_file_types>${BLOCKED_FILE_TYPES}</blocked_file_types>
+    <allow_search>${ALLOW_SEARCH}</allow_search>
+    <use_google_search>${USE_GOOGLE_SEARCH}</use_google_search>
+</record>

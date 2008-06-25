@@ -1,0 +1,6 @@
+<message_data>
+    <source_user_name>${SOURCE_USER_NAME}</source_user_name>
+    <target_user_name>${TARGET_USER_NAME}</target_user_name>
+    <session_token>${SESSION_TOKEN}</session_token>
+    <session_type>${SESSION_TYPE}</session_type>
+</message_data>

@@ -1,0 +1,8 @@
+<message_data>
+    <user_name>${USER_NAME}</user_name>
+    <direct_connection_available>${DIRECT_CONNECTION}</direct_connection_available>
+    <user_ip>${USER_IP}</user_ip>
+    <user_port>${USER_PORT}</user_port>
+    <local_ip>${LOCAL_IP}</local_ip>
+    <local_port>${LOCAL_PORT}</local_port>
+</message_data>

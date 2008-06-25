@@ -1,0 +1,4 @@
+<message_data>
+    <account_type>${ACCOUNT_TYPE}</account_type>
+    <buddy_list>${BUDDY_LIST}</buddy_list>
+</message_data>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+        spec="6.0+"
+        codebase="http://symbeeonline.com/jnlp"
+        href="vd.jnlp">
+    <information>
+        <title>Symbee</title>
+        <vendor>www.symbeeonline.com</vendor>
+        <homepage href="docs/help.html"/>
+        <description>Symbee - share browse search</description>
+        <description kind="short">Symbee - share browse search</description>
+        <icon href="desktop_icon.gif"/>
+        <icon kind="splash" href="spash.jpg"/>
+        <shortcut online="false">
+            <desktop/>
+            <menu submenu="Symbee"/>
+        </shortcut>
+    </information>
+    <!--<update check="always" policy="prompt-update"/>-->
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+        <jar href="vd.jar"/>
+        <jar href="commons-codec-1.3.jar"/>
+        <jar href="jstun-0.6.1.jar"/>
+        <jar href="log4j-1.2.14.jar"/>
+        <jar href="jdic.jar"/>
+        <jar href="junit.jar"/>
+        <jar href="smack.jar"/>
+        <jar href="commons-lang-2.3.jar"/>
+        <jar href="gdapi.jar"/>
+        <jar href="jacob.jar"/>
+        <jar href="commons-logging-1.0.4.jar"/>
+    </resources>
+    <resources os="Windows" arch="x86">
+        <nativelib href="win.jar"/>
+    </resources>
+
+    <application-desc main-class="com.vayoodoot.client.JNLPClient"/>
+</jnlp>

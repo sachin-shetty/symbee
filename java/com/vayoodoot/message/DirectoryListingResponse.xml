@@ -1,0 +1,5 @@
+<message_data>
+    <directory>${DIRECTORY}</directory>
+    <total_items>${TOTAL_ITEMS}</total_items>
+    <last_modified>${LAST_MODIFIED}</last_modified>
+</message_data>

@@ -1,0 +1,6 @@
+<message_footer>
+    <error>
+        <error_code>${ERROR_CODE}</error_code>
+        <error_message>${ERROR_MESSAGE}</error_message>
+    </error>
+</message_footer>

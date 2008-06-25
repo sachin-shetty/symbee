@@ -1,0 +1,7 @@
+<message_data>
+    <file_name>${FILE_NAME}</file_name>
+    <packet_size>${PACKET_SIZE}</packet_size>
+    <packet_number>${PACKET_NUMBER}</packet_number>
+    <packet_recipient>${PACKET_RECIPIENT}</packet_recipient>
+    <packet_contents>${PACKET_CONTENTS}</packet_contents>
+</message_data>

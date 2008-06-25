@@ -1,0 +1,7 @@
+<message_data>
+    <file_name>${FILE_NAME}</file_name>
+    <file_size>${FILE_SIZE}</file_size>
+    <total_packets>${TOTAL_PACKETS}</total_packets>
+    <packet_size>${PACKET_SIZE}</packet_size>
+    <checksum>${CHECKSUM}</checksum>
+</message_data>
