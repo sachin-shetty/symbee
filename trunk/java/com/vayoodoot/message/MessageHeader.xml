@@ -1,0 +1,6 @@
+<message_header>
+    <message_type>${MESSAGE_TYPE}</message_type>
+    <login_name>${LOGIN_NAME}</login_name>
+    <session_token>${SESSION_TOKEN}</session_token>
+    <message_status>{MESSAGE_STATUS}</message_status>
+</message_header>

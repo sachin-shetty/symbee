@@ -1,0 +1,4 @@
+<message_data>
+    <file_name>${FILE_NAME}</file_name>
+    <file_packets>${FILE_PACKETS}</file_packets>
+</message_data>

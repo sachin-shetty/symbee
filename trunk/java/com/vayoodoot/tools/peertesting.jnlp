@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+        spec="6.0+"
+        codebase="http://24.6.1.140/jnlp"
+        href="peertesting.jnlp">
+    <information>
+        <title>Peer Connectivity Test</title>
+        <vendor>www.symbeeonline.com</vendor>
+        <homepage href="docs/help.html"/>
+        <description>Peer Connectivity Test</description>
+        <description kind="short">Peer Connectivity Test</description>
+    </information>
+    <update check="always" policy="prompt-update"/>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+        <jar href="tools.jar"/>
+        <jar href="jstun-0.6.1.jar"/>
+    </resources>
+    <application-desc main-class="com.vayoodoot.tools.UDPHolePuncher"/>
+</jnlp>

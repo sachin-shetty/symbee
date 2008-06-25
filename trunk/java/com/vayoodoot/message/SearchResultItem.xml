@@ -1,0 +1,9 @@
+<message_data>
+    <query>${SEARCH_QUERY}</query>
+    <directory>${DIRECTORY}</directory>
+    <name>${NAME}</name>
+    <size>${SIZE}</size>
+    <type>${TYPE}</type>
+    <is_directory>${IS_DIRECTORY}</is_directory>
+    <last_modified>${LAST_MODIFIED}</last_modified>
+</message_data>

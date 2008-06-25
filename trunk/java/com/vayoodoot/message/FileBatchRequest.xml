@@ -1,0 +1,5 @@
+<message_data>
+    <file_name>${FILE_NAME}</file_name>
+    <offset>${OFFSET}</offset>
+    <size>${SIZE}</size>
+</message_data>

@@ -1,0 +1,5 @@
+<message_data>
+    <login_status>${LOGIN_STATUS}</login_status>
+    <response_code>${LOGIN_RESPONSE_CODE}</response_code>
+    <login_token>${LOGIN_TOKEN}</login_token>
+</message_data>

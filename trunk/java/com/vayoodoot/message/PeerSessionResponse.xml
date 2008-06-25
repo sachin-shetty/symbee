@@ -1,0 +1,4 @@
+<message_data>
+    <session_status>${SESSION_STATUS}</session_status>
+    <response_code>${RESPONSE_CODE}</response_code>
+</message_data>

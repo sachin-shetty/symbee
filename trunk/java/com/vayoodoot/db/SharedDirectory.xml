@@ -1,0 +1,5 @@
+<record>
+    <record_type>com.vayoodoot.db.SharedDirectory</record_type>
+    <local_directory>${LOCAL_DIRECTORY}</local_directory>
+    <share_name>${SHARE_NAME}</share_name>
+</record>
