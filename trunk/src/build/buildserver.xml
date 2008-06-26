@@ -1,17 +1,21 @@
-<project name="buildserver" default="dist" basedir="C:\sachin\work\shoonya\google_symbee">
-
-    <path id="javac.classpath">
-        <pathelement path="${basedir}/${build}"/>
-        <pathelement path="${basedir}/src/java"/>
-        <pathelement path="C:\Program Files\Java\jdk1.6.0_01\jre\lib\javaws.jar"/>
-        <fileset dir="${basedir}/lib">
-           <include name="*"/>
-       </fileset>
-    </path>
+<project name="buildserver" default="dist" basedir="../../" >
 
     <property name="src" location="src"/>
     <property name="build" location="build"/>
     <property name="dist"  location="dist"/>
+    <property file="src/build/build.properties"/>
+
+
+    <path id="javac.classpath">
+        <pathelement path="${BASE_DIR}/${build}"/>
+        <pathelement path="${BASE_DIR}/src/java"/>
+        <!--<pathelement path="C:\Program Files\Java\jdk1.6.0_01\jre\lib\javaws.jar"/> -->
+        <pathelement path="${JAVAWS_JAR_LOC}"/>
+        <fileset dir="${BASE_DIR}/lib">
+           <include name="*"/>
+       </fileset>
+    </path>
+
 
     <target name="init" depends="clean">
         <!-- Create the time stamp -->
@@ -37,7 +41,7 @@
     <target name="dist" depends="compile"
             description="generate the server distribution" >
         <!-- Create the distribution directory -->
-        <copydir src="${basedir}/src"  dest="${build}/src"/>
+        <copydir src="${BASE_DIR}/src"  dest="${build}/src"/>
         <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
         <jar jarfile="${dist}/symbee_server.jar" basedir="${build}"/>
         <delete dir="${build}" />
