@@ -1,3 +1,5 @@
+package com.vayoodoot.research.ui;
+
 import javax.swing.ImageIcon;
 import java.awt.image.*;
 import com.sun.image.codec.jpeg.*;
