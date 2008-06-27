@@ -55,16 +55,12 @@
         <!-- Copy the properties files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
         <copy todir="${BASE_DIR}/build/com/vayoodoot/properties">
-            <fileset includes="*.properties" dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+            <fileset includes="*.properties" dir="${BASE_DIR}/src/java/com/vayoodoot/properties"/>
         </copy>
 
         <!-- Copy the image files -->
-        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img"/>
-        <copy todir="${BASE_DIR}/build/com/vayoodoot/ui/img">
-            <fileset includes="*" dir="${BASE_DIR}/src/java/com/vayoodoot/ui/img"/>
-        </copy>
-
-
+        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
+        <copydir src="${BASE_DIR}/src/java/com/vayoodoot/ui/img/images" dest="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
 
     </target>
 
