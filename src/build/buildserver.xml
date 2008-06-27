@@ -9,7 +9,6 @@
     <path id="javac.classpath">
         <pathelement path="${BASE_DIR}/${build}"/>
         <pathelement path="${BASE_DIR}/src/java"/>
-        <!--<pathelement path="C:\Program Files\Java\jdk1.6.0_01\jre\lib\javaws.jar"/> -->
         <pathelement path="${JAVAWS_JAR_LOC}"/>
         <fileset dir="${BASE_DIR}/lib">
            <include name="*"/>
@@ -40,9 +39,6 @@
 
     <target name="dist" depends="compile"
             description="generate the server distribution" >
-        <!-- Create the distribution directory -->
-        <copydir src="${BASE_DIR}/src"  dest="${build}/src"/>
-        <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
         <jar jarfile="${dist}/symbee_server.jar" basedir="${build}"/>
         <delete dir="${build}" />
     </target>
