@@ -75,20 +75,20 @@
         <delete dir="${build}/com/vayoodoot/research" />
         <delete dir="${build}/com/vayoodoot/jnlp" />
 
-        <mkdir dir="${dist}/client"/>
+        <mkdir dir="${dist}/jnlp"/>
 
-        <copy todir="${dist}/client">
+        <copy todir="${dist}/jnlp">
             <fileset includes="*" dir="${BASE_DIR}/lib/"/>
         </copy>
 
         <!-- create the jar and sign all the jar -->
-        <jar jarfile="${dist}/client/symbee_client.jar" basedir="${build}"/>
+        <jar jarfile="${dist}/jnlp/symbee_client.jar" basedir="${build}"/>
         <signjar keystore="${KEY_STORE}" storepass="${KEY_PASSWORD}" alias="symbee">
-            <fileset includes="*.jar" dir="${dist}/client/" />
+            <fileset includes="*.jar" dir="${dist}/jnlp/" />
         </signjar>
 
         <copy file="${BASE_DIR}/src/java/com/vayoodoot/jnlp/vd.jnlp"
-              todir="${dist}/client"/>
+              todir="${dist}/jnlp"/>
 
 
 
