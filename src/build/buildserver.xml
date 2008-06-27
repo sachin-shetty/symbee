@@ -54,9 +54,11 @@
 
         <!-- Copy the properties files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
-        <copy todir="${BASE_DIR}/build">
-            <fileset includes="*.properties" dir="${BASE_DIR}/src/java/com/vayoodoot/properties"/>
-        </copy>
+        <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/VDProperties.properties"
+              todir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+        <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/log4j.properties"
+                      todir="${BASE_DIR}/build/"/>
+
 
         <!-- Copy the image files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
