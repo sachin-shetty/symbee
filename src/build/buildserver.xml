@@ -5,7 +5,6 @@
     <property name="dist"  location="dist"/>
     <property file="src/build/build.properties"/>
 
-
     <path id="javac.classpath">
         <pathelement path="${BASE_DIR}/${build}"/>
         <pathelement path="${BASE_DIR}/src/java"/>
@@ -14,7 +13,6 @@
            <include name="*"/>
        </fileset>
     </path>
-
 
     <target name="init" depends="clean">
         <!-- Create the time stamp -->
@@ -59,17 +57,41 @@
         <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/log4j.properties"
                       todir="${BASE_DIR}/build/"/>
 
-
         <!-- Copy the image files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
-        <copydir src="${BASE_DIR}/src/java/com/vayoodoot/ui/img/images" dest="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
+        <copydir src="${BASE_DIR}/src/java/com/vayoodoot/ui/img/images"
+                 dest="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
 
     </target>
 
 
     <target name="dist" depends="copyotherfiles"
             description="generate the server distribution" >
+        <!-- Create the server jar -->
         <jar jarfile="${dist}/symbee_server.jar" basedir="${build}"/>
+
+        <!-- Create the client related files -->
+        <delete dir="${build}/com/vayoodoot/server" />
+        <delete dir="${build}/com/vayoodoot/research" />
+        <delete dir="${build}/com/vayoodoot/jnlp" />
+
+        <mkdir dir="${dist}/client"/>
+
+        <copy todir="${dist}/client">
+            <fileset includes="*" dir="${BASE_DIR}/lib/"/>
+        </copy>
+
+        <!-- create the jar and sign all the jar -->
+        <jar jarfile="${dist}/client/symbee_client.jar" basedir="${build}"/>
+        <signjar keystore="${KEY_STORE}" storepass="${KEY_PASSWORD}" alias="symbee">
+            <fileset includes="*.jar" dir="${dist}/client/" />
+        </signjar>
+
+        <copy file="${BASE_DIR}/src/java/com/vayoodoot/jnlp/vd.jnlp"
+              todir="${dist}/client"/>
+
+
+
         <delete dir="${build}" />
     </target>
 
