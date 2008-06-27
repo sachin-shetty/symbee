@@ -54,7 +54,7 @@
 
         <!-- Copy the properties files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
-        <copy todir="${BASE_DIR}/build/com/vayoodoot/properties">
+        <copy todir="${BASE_DIR}/build">
             <fileset includes="*.properties" dir="${BASE_DIR}/src/java/com/vayoodoot/properties"/>
         </copy>
 
