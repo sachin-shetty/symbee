@@ -15,5 +15,5 @@ Generating the required certificates and key stores
 
 
    * Generate the trustore for client
-keytool -importcert -keystore /tmp/symbee.truststore -file /tmp/symbee_client.cert -alias symbee -storepass symbee
+       keytool -importcert -keystore /tmp/symbee.truststore -file /tmp/symbee_client.cert -alias symbee -storepass symbee
    
