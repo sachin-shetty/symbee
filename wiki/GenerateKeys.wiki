@@ -1,0 +1,13 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Generating the required certificates and key stores
+
+
+= Details =
+
+   * Generate the keys pair for the server:
+       keytool -genkeypair -keystore /tmp/symbeeserver.keystore -alias symbee -storepass symbee
+
+   
