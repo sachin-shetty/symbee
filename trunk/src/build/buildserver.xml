@@ -37,7 +37,39 @@
                 />
     </target>
 
-    <target name="dist" depends="compile"
+    <target name="copyotherfiles" depends="compile"
+            description="copy other files like xml, jpg etc" >
+
+        <!-- Copy the message templates -->
+        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/message"/>
+        <copy todir="${BASE_DIR}/build/com/vayoodoot/message">
+            <fileset includes="*.xml" dir="${BASE_DIR}/src/java/com/vayoodoot/message"/>
+        </copy>
+
+        <!-- Copy the database templates -->
+        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/db"/>
+        <copy todir="${BASE_DIR}/build/com/vayoodoot/db">
+            <fileset includes="*.xml" dir="${BASE_DIR}/src/java/com/vayoodoot/db"/>
+        </copy>
+
+        <!-- Copy the properties files -->
+        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+        <copy todir="${BASE_DIR}/build/com/vayoodoot/properties">
+            <fileset includes="*.xml" dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+        </copy>
+
+        <!-- Copy the image files -->
+        <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img"/>
+        <copy todir="${BASE_DIR}/build/com/vayoodoot/ui/img">
+            <fileset includes="*" dir="${BASE_DIR}/src/java/com/vayoodoot/ui/img"/>
+        </copy>
+
+
+
+    </target>
+
+
+    <target name="dist" depends="copyotherfiles"
             description="generate the server distribution" >
         <jar jarfile="${dist}/symbee_server.jar" basedir="${build}"/>
         <delete dir="${build}" />
