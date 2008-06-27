@@ -55,7 +55,7 @@
         <!-- Copy the properties files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
         <copy todir="${BASE_DIR}/build/com/vayoodoot/properties">
-            <fileset includes="*.xml" dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+            <fileset includes="*.properties" dir="${BASE_DIR}/build/com/vayoodoot/properties"/>
         </copy>
 
         <!-- Copy the image files -->
