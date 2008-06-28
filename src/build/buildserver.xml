@@ -27,7 +27,6 @@
         <!-- Compile the java code from ${src} into ${build} -->
         <javac
                 target="1.6"
-                verbose="yes"
                 srcdir="${src}/java"
                 destdir="${build}"
                 debug="true"
@@ -81,7 +80,7 @@
             <fileset includes="*" dir="${BASE_DIR}/lib/"/>
         </copy>
 
-        <!-- create the jar and sign all the jar -->
+            <!-- create the jar and sign all the jar -->
         <jar jarfile="${dist}/jnlp/symbee_client.jar" basedir="${build}"/>
         <signjar keystore="${KEY_STORE}" storepass="${KEY_PASSWORD}" alias="symbee">
             <fileset includes="*.jar" dir="${dist}/jnlp/" />
