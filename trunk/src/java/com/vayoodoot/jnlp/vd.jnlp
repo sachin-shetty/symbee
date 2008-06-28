@@ -22,7 +22,7 @@
     </security>
     <resources>
         <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
-        <jar href="vd.jar"/>
+        <jar href="symbee_client.jar"/>
         <jar href="commons-codec-1.3.jar"/>
         <jar href="jstun-0.6.1.jar"/>
         <jar href="log4j-1.2.14.jar"/>
