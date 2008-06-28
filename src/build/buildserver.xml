@@ -56,6 +56,7 @@
         <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/log4j.properties"
                       todir="${BASE_DIR}/build/"/>
 
+
         <!-- Copy the image files -->
         <mkdir dir="${BASE_DIR}/build/com/vayoodoot/ui/img/images"/>
         <copydir src="${BASE_DIR}/src/java/com/vayoodoot/ui/img/images"
@@ -80,6 +81,11 @@
             <fileset includes="*" dir="${BASE_DIR}/lib/"/>
         </copy>
 
+        <delete file="${BASE_DIR}/build/com/vayoodoot/properties/log4j.properties" />
+        <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/log4j.properties"
+                      todir="${BASE_DIR}/build/com/vayoodoot/properties"/>
+
+
             <!-- create the jar and sign all the jar -->
         <jar jarfile="${dist}/jnlp/symbee_client.jar" basedir="${build}"/>
         <signjar keystore="${KEY_STORE}" storepass="${KEY_PASSWORD}" alias="symbee">
@@ -88,6 +94,7 @@
 
         <copy file="${BASE_DIR}/src/java/com/vayoodoot/jnlp/vd.jnlp"
               todir="${dist}/jnlp"/>
+
 
 
 
