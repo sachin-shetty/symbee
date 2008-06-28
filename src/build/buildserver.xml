@@ -85,8 +85,11 @@
         <copy file="${BASE_DIR}/src/java/com/vayoodoot/properties/log4j.properties"
                       todir="${BASE_DIR}/build/com/vayoodoot/properties"/>
 
+        <!-- Copy the certificate -->
+        <copy file="${TRUST_STORE}" todir="${build}"/>
 
-            <!-- create the jar and sign all the jar -->
+
+        <!-- create the jar and sign all the jar -->
         <jar jarfile="${dist}/jnlp/symbee_client.jar" basedir="${build}"/>
         <signjar keystore="${KEY_STORE}" storepass="${KEY_PASSWORD}" alias="symbee">
             <fileset includes="*.jar" dir="${dist}/jnlp/" />
