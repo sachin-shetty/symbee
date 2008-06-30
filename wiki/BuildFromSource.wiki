@@ -13,3 +13,7 @@ This page lists the steps to build from the source.
    * Edit the build properties in  trunk/src/build/build.properties
 
    * Run the ant build for build.xml located in trunk/src/build
+
+   * The ant build will create two sets of files:
+       1. The jar file needed for the server - trunk/dist/symbee_server.jar   
+       2. The dist/jnlp directory that contains all the jars needed to host the java web start applet. Every jar in this directory is signed with the certificate specified in ${KEY_STORE} 
