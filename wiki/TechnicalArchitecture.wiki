@@ -23,3 +23,6 @@ The Symbee Server is a java socket acceptor program that tracks Symbee clients a
 Symbee Client
 
 =============
+
+
+Symbee client is Java WebStart client. The client can be launched using the vd.jnlp descriptor file. The client user interface is built using Swing libraries compatible with JDK 1.6. The client allows users to log in to Symbee server using their Google account credentials. The client communicates with the symbee server over ssl requesting tokens to connect to peers. The client on receiving the token initiates a direct P2P connection with the peer over an encrypted datagram socket. Once the connection is established, the Peers communicate directly for file requests etc.
