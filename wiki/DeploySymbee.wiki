@@ -1,0 +1,15 @@
+#summary Setting up your own Symbee server and client
+
+= Introduction =
+
+This document describes the steps to deploy and run your own symbee server and client.
+
+
+= Details =
+
+    * Checkout the source code from subversion
+          svn checkout http://symbee.googlecode.com/svn/trunk/ symbee-read-only 
+    * Edit the VDProperties.properties file to appropriate values
+          MAIN_SERVER_PORT=<The Server Port that you want your symbee server to run>
+          MAIN_SERVER_HOST=<The hostname of the server that you will be running your symbee server on>
+    * Build the deployable jar files. Refer to BuildFromSource for details 
