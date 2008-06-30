@@ -1,0 +1,9 @@
+#summary Building from source
+
+= Introduction =
+
+This page lists the steps to build from the source.
+
+= Details =
+
+1. Generate the required SSL keys and certificates. Refer to GenerateKeys for to generate a test one using keytool
