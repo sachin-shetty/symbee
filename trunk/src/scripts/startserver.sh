@@ -16,7 +16,7 @@ export CLASSPATH
 echo "Classpath= $CLASSPATH"
 
 #nohup java  -Djavax.net.ssl.keyStore=/home/sshetty/classes/vayoodoot/trunk/scripts/myKeystore -Djavax.net.ssl.keyStorePassword=sachin com.vayoodoot.server.MainServer 1522 2>> /home/sshetty/classes/vayoodoot/trunk/build/log/err.log 1>> /home/sshetty/classes/vayoodoot/trunk/build/log/out.log &
-nohup java  -Djavax.net.ssl.keyStore=$KEY_STORE -Djavax.net.ssl.keyStorePassword=$KEY_STORE com.vayoodoot.server.MainServer 19000 & 
+nohup java  -Djavax.net.ssl.keyStore=$KEY_STORE -Djavax.net.ssl.keyStorePassword=$KEY_STORE_PASS com.vayoodoot.server.MainServer 19000 & 
 
 
 
