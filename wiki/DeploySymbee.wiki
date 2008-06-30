@@ -13,3 +13,6 @@ This document describes the steps to deploy and run your own symbee server and c
           MAIN_SERVER_PORT=<The Server Port that you want your symbee server to run>\n
           MAIN_SERVER_HOST=<The hostname of the server that you will be running your symbee server on>
     * Build the deployable jar files. Refer to BuildFromSource for details 
+    * Edit the vd.jnlp as per your deployment details
+    * Start the server. You can refer to src/scripts/startserver.sh for details.
+        nohup java  -Djavax.net.ssl.keyStore=$KEY_STORE -Djavax.net.ssl.keyStorePassword=$KEY_STORE_PASS com.vayoodoot.server.MainServer <PORT NUMBER> & 
