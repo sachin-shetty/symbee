@@ -6,4 +6,6 @@ This page lists the steps to build from the source.
 
 = Details =
 
-1. Generate the required SSL keys and certificates. Refer to GenerateKeys for to generate a test one using keytool
+   1. Generate the required SSL keys and certificates. Refer to GenerateKeys for to generate a test one using keytool
+   2. Checkout the source code from subversion
+        svn checkout http://symbee.googlecode.com/svn/trunk/ symbee-read-only
