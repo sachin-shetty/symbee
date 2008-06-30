@@ -1,0 +1,14 @@
+#summary Technical Architecture
+
+= Introduction =
+
+This document describes the technical architecture of Symbee. 
+
+= Details =
+
+Overall Architecture
+====================
+
+Symbee is based on Peer to Peer communication. The Symbee server keeps track of all the logged in clients and their public IP address. When users log in to their Symbee client, the client logs in their respective Gmail accounts using Smack libraries and then logs in to the Symbee server. When the client needs to connect to the 
+
+Symbee primarily consists of two components. The Symbee server and the Symbee client. The Symbee server is responsible to provide clients with 
