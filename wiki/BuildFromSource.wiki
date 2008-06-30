@@ -9,3 +9,7 @@ This page lists the steps to build from the source.
 
    * Checkout the source code from subversion
         svn checkout http://symbee.googlecode.com/svn/trunk/ symbee-read-only
+
+   * Edit the build properties in  trunk/src/build/build.properties
+
+   * Run the ant build for build.xml located in trunk/src/build
